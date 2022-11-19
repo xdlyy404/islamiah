@@ -5,8 +5,8 @@ import JadwalSholatCard from "./JadwalSholatCard";
 export default function JadwalSolatHariIni() {
   let today = new Date();
   const query = new URLSearchParams({
-    latitude: -5.432785335037951,
-    longitude: 120.20395726642634,
+    latitude: -6.866667,
+    longitude: 109.133333,
     // method: 99,
     month: today.getMonth() + 1,
     year: today.getFullYear()
